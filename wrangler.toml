@@ -1,0 +1,13 @@
+name = "email-tgm"
+main = "src/index.ts"
+compatibility_date = "2026-03-08"
+
+[vars]
+sendEmail = "true"
+destinationAddress = ""
+
+[observability]
+enabled = true
+
+[[send_email]]
+name = "emailSender"
