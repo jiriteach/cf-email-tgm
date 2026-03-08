@@ -1,7 +1,7 @@
 # 📩 - Cloudflare Email Worker --> Telegram and  Email Forwarder
 
 <br/>
-<img src="https://cf-r2.se7en.co.nz/images/Cloudflare1.png" alt="Screenshot" height="50">
+<img src="https://cf-r2.se7en.co.nz/images/Cloudflare2.png" alt="Screenshot" height="50">
 <br/>
 
 This project is a Cloudflare Worker that receives inbound emails from Cloudflare Email Routing, extracts a readable message body from MIME content, sends that body to Telegram, and can optionally send an outbound email copy using a `send_email` binding.
